@@ -46,6 +46,10 @@ html {
     font-size: var(--fs-base);
     line-height: 1.6;
     color: var(--text-color-primary);
+
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
 }
 
 body {
@@ -76,6 +80,10 @@ a {
     color: inherit;
 }
 
+.p {
+    font-size: 1rem;
+}
+
 a:hover {
     background: linear-gradient( 90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
 
@@ -84,9 +92,8 @@ a:hover {
     color: transparent;
 }
 
-ul [role="list"] {
+ul[role="list"] {
     list-style: none;
-
 }
 
 img {
